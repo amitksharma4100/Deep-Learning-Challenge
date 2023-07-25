@@ -21,9 +21,9 @@ Results:
  Model had two hidden layers with 9 neurons in the first layer and 18 in the second layer.  I used Relu activation function for the two layers and Sigmoid for the final output layer.  Since Relu is less expensive from processing time standpoint, so for the initial layers it makes sense to use that and then polish the output with sigmoid to improve accuracy.
 
  o	Were you able to achieve the target model performance?
- No with two hidden layers, I was not able to achieve the target > 75% accuracy but got pretty close at 73.5%
+ No with two hidden layers, I was not able to achieve the target > 75% accuracy but got pretty close at 72.4%
 
  o	What steps did you take in your attempts to increase model performance?
  I increased one layer, increased the number of Epoch 50 from initial 30.  That got the accuracy to increase to 74%
 
-Summary:   Optimization resulted in 74% accuracy while initially the model has 73.5% accuracy. Therefore we gained very little on accuracy via adding one more hidden layer.   Other models could be explored to see if the accuracy is better for example, Random Forest Clusters. 
+Summary:   Optimization resulted in 74% accuracy while initially the model has 72.4% accuracy. Therefore we gained slightly on accuracy via adding one more hidden layer.   Other models could be explored to see if the accuracy is better for example, Random Forest Clusters. 
